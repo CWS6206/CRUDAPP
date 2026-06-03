@@ -19,7 +19,7 @@ namespace CRUDAPP.Pages.Users
             _context = context;
         }
 
-        public IList<User> User { get;set; } = default!;
+        public new IList<User> User { get;set; } = default!;
 
         public async Task OnGetAsync()
         {

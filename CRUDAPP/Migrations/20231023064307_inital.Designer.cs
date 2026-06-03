@@ -12,7 +12,7 @@ namespace CRUDAPP.Migrations
 {
     [DbContext(typeof(CRUDAPPContext))]
     [Migration("20231023064307_inital")]
-    partial class inital
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

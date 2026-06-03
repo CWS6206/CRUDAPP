@@ -4,7 +4,7 @@
 
 namespace CRUDAPP.Migrations
 {
-    public partial class inital : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
